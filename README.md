@@ -1,3 +1,8 @@
+# EGC Labs (Elemente de grafica pe calculator)
+
+### :white_check_mark: TODO:
+[ ] add screenshots / videos for each lab  
+
 # GFX Framework
 
 ## :sparkles: Introduction
