@@ -7,6 +7,7 @@ class World : public InputController
 {
  public:
     World();
+    // O functie virtuala in C++ = functie ce va fi implementata de clasa copil
     virtual ~World() {}
     virtual void Init() {}
     virtual void FrameStart() {}

@@ -5,7 +5,7 @@
 
 namespace m1
 {
-    class Lab1 : public gfxc::SimpleScene
+    class Lab1 : public gfxc::SimpleScene   // clasa Lab1 mosteneste din gfx::SimpleScene
     {
      public:
         Lab1();
@@ -28,6 +28,19 @@ namespace m1
         void OnWindowResize(int width, int height) override;
 
         // TODO(student): Class variables go here
+        glm::vec3 clearColor;
+        int colorState;
 
+        std::vector<std::string> meshNames;
+        int currentMesh;
+
+        glm::vec3 mainObjPos;
+        float speed;
+
+        glm::vec3 spherePos;
+        float oscCenterY;                   // oscilation center on Y axis
+        float amplitude;
+        float freq;
+        float totalTime;
     };
 }   // namespace m1

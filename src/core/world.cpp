@@ -59,6 +59,7 @@ void World::ComputeFrameDeltaTime()
 void World::LoopUpdate()
 {
     // Polls and buffers the events
+    // Capteaza Input-ul
     window->PollEvents();
 
     // Computes frame deltaTime in seconds
